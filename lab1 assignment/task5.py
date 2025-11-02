@@ -1,3 +1,7 @@
+from typing import Iterable, TypeVar
+
+T = TypeVar("T")
+
 def find_largest(seq: Iterable[T]) -> T:
 	"""Return the largest element from seq.
 
